@@ -135,21 +135,21 @@ This creates a `dist` folder with production-ready files.
 
 ### Deploy to GitHub Pages
 
-1. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Update quiz content"
-   git push origin main
-   ```
+1. Make sure your repository is pushed to GitHub.
+2. Update the `base` in `vite.config.js` to your repo name (already set to `/anniversary-surprise/`).
+3. Run:
 
-2. **Enable GitHub Pages**:
-   - Go to your repository settings
-   - Navigate to "Pages"
-   - Set source to "GitHub Actions"
-   - The workflow will automatically deploy your changes
+```bash
+npm run deploy
+```
 
-3. **Access Your Site**:
-   - Your quiz will be available at: `https://yourusername.github.io/anniversary-surprise/`
+This will build the project and deploy the `dist` folder to the `gh-pages` branch. Your site will be live at:
+
+```
+https://<your-github-username>.github.io/anniversary-surprise/
+```
+
+If you change your repository name, update the `base` in `vite.config.js` accordingly.
 
 ### Manual Deployment
 
