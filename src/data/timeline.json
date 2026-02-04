@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "date": "2016-02-14",
+      "title": "Our first Valentine's",
+      "description": "The day we knew this was special.",
+      "location": "Cafe By The Sea",
+      "type": "image",
+      "mediaUrl": "/memories/2016-valentines.jpg",
+      "tags": ["firsts", "love"]
+    },
+    {
+      "date": "2017-07-10",
+      "title": "A summer getaway",
+      "description": "Sunsets, long walks, and too many ice creams.",
+      "location": "Goa",
+      "type": "image",
+      "mediaUrl": "/memories/2017-goa.jpg",
+      "tags": ["travel"]
+    },
+    {
+      "date": "2019-12-01",
+      "title": "The proposal",
+      "description": "I asked. You smiled. We cried.",
+      "location": "Old Town",
+      "type": "video",
+      "mediaUrl": "/memories/2019-proposal.mp4",
+      "poster": "/memories/2019-proposal-cover.jpg",
+      "tags": ["proposal", "magic"]
+    },
+    {
+      "date": "2020-11-20",
+      "title": "Our wedding day",
+      "description": "The beginning of forever.",
+      "location": "Udaipur",
+      "type": "image",
+      "mediaUrl": "/memories/2020-wedding.jpg",
+      "tags": ["wedding", "family"]
+    },
+    {
+      "date": "2022-05-05",
+      "title": "First home",
+      "description": "Bare walls, big dreams, and pizza on the floor.",
+      "location": "Pune",
+      "type": "image",
+      "mediaUrl": "/memories/2022-first-home.jpg",
+      "tags": ["home"]
+    },
+    {
+      "date": "2025-12-31",
+      "title": "New Year's Eve",
+      "description": "Ten years down, forever to go.",
+      "location": "Our place",
+      "type": "image",
+      "mediaUrl": "/memories/2025-nye.jpg",
+      "tags": ["celebration"]
+    }
+  ]
+}

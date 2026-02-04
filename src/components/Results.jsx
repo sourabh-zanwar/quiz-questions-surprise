@@ -43,7 +43,7 @@ const Results = ({ score, totalQuestions }) => {
         <h1 className="results-title">{resultTitle}</h1>
         
         <div className="score-display">
-          <div className="score-circle">
+          <div className="score-circle" style={{ ['--pct']: `${percentage}%` }}>
             <span className="score-number">{score}</span>
             <span className="score-total">/ {totalQuestions}</span>
           </div>

@@ -20,8 +20,8 @@ A beautiful, interactive anniversary quiz web application built with React and V
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/anniversary-surprise.git
-cd anniversary-surprise
+git clone https://github.com/sourabh-zanwar/quiz-questions-surprise.git
+cd quiz-questions-surprise
 
 # Install dependencies
 npm install
@@ -109,19 +109,22 @@ Edit the `summaryMessages` in `quizData.json` to personalize results messages:
 
 ## 🎨 Styling
 
-The app uses a romantic gradient color scheme (purple and pink). To customize colors, edit the CSS files:
+The design is modern and minimalist. Global design tokens are in `src/index.css`:
 
-- `src/index.css` - Global styles
-- `src/components/Quiz.css` - Quiz container
-- `src/components/QuestionCard.css` - Question styling
-- `src/components/FinalQuestion.css` - Final question styling
-- `src/components/Results.css` - Results page styling
+- `--bg`: app background
+- `--panel`: surfaces/cards
+- `--text`: primary text
+- `--muted`: secondary text
+- `--border`: subtle borders
+- `--accent`: primary accent (blue)
+- `--accent-weak`: light accent background
 
-Key color variables you can modify:
-- `#667eea` - Primary purple
-- `#764ba2` - Secondary purple
-- `#FF6B9D` - Pink accent
-- `#FFC75F` - Gold accent
+Adjust component styles here:
+- `src/components/Quiz.css`
+- `src/components/QuestionCard.css`
+- `src/components/FinalQuestion.css`
+- `src/components/Results.css`
+- `src/components/MemoryTimeline.css`
 
 ## 📦 Build & Deploy
 
@@ -136,7 +139,7 @@ This creates a `dist` folder with production-ready files.
 ### Deploy to GitHub Pages
 
 1. Make sure your repository is pushed to GitHub.
-2. Update the `base` in `vite.config.js` to your repo name (already set to `/anniversary-surprise/`).
+2. Ensure the `base` in `vite.config.js` matches your repo name (already set to `/quiz-questions-surprise/`).
 3. Run:
 
 ```bash
@@ -146,10 +149,21 @@ npm run deploy
 This will build the project and deploy the `dist` folder to the `gh-pages` branch. Your site will be live at:
 
 ```
-https://<your-github-username>.github.io/anniversary-surprise/
+https://sourabh-zanwar.github.io/quiz-questions-surprise/
 ```
 
 If you change your repository name, update the `base` in `vite.config.js` accordingly.
+
+### Set the Git remote
+
+If needed, set the Git remote to the correct URL:
+
+```bash
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/sourabh-zanwar/quiz-questions-surprise.git
+git branch -M main
+git push -u origin main
+```
 
 ### Manual Deployment
 
