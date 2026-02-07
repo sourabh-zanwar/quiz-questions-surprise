@@ -25,7 +25,7 @@
     {
       "id": 2,
       "question": "How old were you in this photo?",
-      "imageUrl": "images/questions/how-old.JPG",
+      "imageUrl": "questions/how-old.JPG",
       "options": ["24", "22", "21", "23"],
       "correctAnswer": 2,
       "correctFeedback": [
@@ -56,7 +56,7 @@
     {
       "id": 4,
       "question": "Where is this photo from?",
-      "imageUrl": "images/questions/what-place.JPG",
+      "imageUrl": "questions/what-place.JPG",
       "options": ["Sinhagad", "Rajgad", "ARAI", "Khadakwasla"],
       "correctAnswer": 0,
       "correctFeedback": [
@@ -87,7 +87,7 @@
     {
       "id": 6,
       "question": "Where is this photo from?",
-      "imageUrl": "images/questions/where-from.jpg",
+      "imageUrl": "questions/where-from.jpg",
       "options": ["Starbucks", "Cocoa", "Peters Pan", "Love Sugar Dough"],
       "correctAnswer": 3,
       "correctFeedback": [
@@ -118,7 +118,7 @@
     {
       "id": 8,
       "question": "Whose birthday was it in this photo?",
-      "imageUrl": "images/questions/whose-birthday.JPG",
+      "imageUrl": "questions/whose-birthday.JPG",
       "options": ["Sourabh's", "Aditi's", "No one's", "Someone else's"],
       "correctAnswer": 3,
       "correctFeedback": [
