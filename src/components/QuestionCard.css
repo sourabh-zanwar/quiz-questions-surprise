@@ -3,12 +3,12 @@
 
 @keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 
-.question-image { margin-bottom: 20px; border-radius: 12px; overflow: hidden; max-height: 300px; }
-.question-image img { width: 100%; height: auto; display: block; background: #f3f4f6; }
+.question-image { margin-bottom: 20px; border-radius: 12px; overflow: visible; text-align: center; }
+.question-image img { max-width: 100%; width: auto; height: auto; display: inline-block; object-fit: contain; background: #f3f4f6; }
 
 .question-text { font-size: 24px; font-weight: 650; color: var(--text); margin: 0 0 16px 0; text-align: center; }
 
-.options-container { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.options-container { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
 
 .option-button { display: flex; align-items: center; padding: 12px 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; font-size: 15px; color: var(--text); cursor: pointer; transition: background 0.2s ease, border-color 0.2s ease, transform 0.1s ease; text-align: left; font-family: inherit; }
 .option-button:hover:not(:disabled) { background: #f9fafb; border-color: var(--border); transform: translateX(2px); }
@@ -30,7 +30,7 @@
 .sad-animation { font-size: 2.5rem; animation: sadBounce 0.6s ease-in-out; }
 @keyframes sadBounce { 0% { transform: translateY(-16px) rotate(-3deg); opacity: 0; } 50% { transform: translateY(0) rotate(0deg); } 100% { transform: translateY(-3px) rotate(-1deg); opacity: 1; } }
 
-.next-button { padding: 12px 18px; font-size: 15px; font-weight: 600; border: none; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 6px 16px rgba(59,130,246,0.25); animation: slideUp 0.3s ease-out; }
+.next-button { padding: 12px 18px; font-size: 15px; font-weight: 600; border: none; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 6px 16px rgba(59,130,246,0.25); animation: slideUp 0.3s ease-out; margin-top: 18px; }
 .next-button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(59,130,246,0.35); }
 .next-button:active { transform: translateY(0); }
 

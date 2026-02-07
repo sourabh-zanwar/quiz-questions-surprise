@@ -9,31 +9,75 @@
   "questions": [
     {
       "id": 1,
-      "question": "What's our go-to comfort food we share?",
-      "options": ["Biryani", "Pizza", "Pasta", "Sushi"],
-      "correctAnswer": 0,
+      "question": "When did we go on our first dinner date?",
+      "options": ["18th February 2016", "26th February 2016", "28th February 2016", "14th February 2016"],
+      "correctAnswer": 2,
+      "correctFeedback": [
+        "Right! That night was unforgettable 💫",
+        "Yes — you remembered our first dinner perfectly! ❤️"
+      ],
       "wrongFeedback": [
-        "Nope! Unless we have a secret food preference I don't know about! 😅",
+        "Nope! Unless we went on a different date seperately! 😅",
         "Not even close! Are you testing me? 😏",
-        "Wrong! Now I'm questioning if you even know me! 💔"
+        "Nope! Unless we went on a different date seperately! 😅"
       ]
     },
     {
       "id": 2,
-      "question": "What movie did we watch on our first date?",
-      "options": ["The Notebook", "Inception", "Titanic", "Interstellar"],
-      "correctAnswer": 1,
+      "question": "How old were you in this photo?",
+      "imageUrl": "src/data/images/questions/how-old.JPG",
+      "options": ["24", "22", "21", "23"],
+      "correctAnswer": 2,
+      "correctFeedback": [
+        "Spot on — you know me well! 🧠💕",
+        "Yes! Nailed the age perfectly! 🎯"
+      ],
       "wrongFeedback": [
-        "Wrong! That's a masterpiece, but not OUR masterpiece! 🎬",
-        "Nice try! But our love story doesn't have that soundtrack! 🎵",
-        "Nope! That wasn't playing when we first danced! 💃"
+        "Wrong, but I forgive you! Age is just a number, right? 😉",
+        "Nope, but I forgive you! Age is just a number, right? 😉",
+        "Nope, but I forgive you! Age is just a number, right? 😉"
       ]
     },
     {
       "id": 3,
+      "question": "What was our first goto boardgame?",
+      "options": ["Azul!", "Scrabble", "Ludo", "Catan"],
+      "correctAnswer": 1,
+      "correctFeedback": [
+        "Yes — Scrabble nights forever! 📝💖",
+        "Correct! Our Scrabble battles are legendary. 🏆"
+      ],
+      "wrongFeedback": [
+        "Wrong! That's a masterpiece, but not OUR masterpiece! 🎲",
+        "Nice try! But our love story doesn't that game in it, yet! 🎲",
+        "Nope! That wasn't the one"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Where is this photo from?",
+      "imageUrl": "src/data/images/questions/what-place.JPG",
+      "options": ["Sinhagad", "Rajgad", "ARAI", "Khadakwasla"],
+      "correctAnswer": 0,
+      "correctFeedback": [
+        "Yes — Sinhagad memories! 🏞️",
+        "Right! That day on Sinhagad was perfect. ❤️"
+      ],
+      "wrongFeedback": [
+        "WRONG LOCATION! I thought you were there with me! 😢🗺️",
+        "Nope! You're confusing our memories again! 🧭",
+        "Not that place! Were you even paying attention? 😅"
+      ]
+    },
+    {
+      "id": 5,
       "question": "What song was playing when we first danced together?",
-      "options": ["Perfect by Ed Sheeran", "Thinking Out Loud by Ed Sheeran", "All of Me by John Legend", "The Night We Met by Lord Huron"],
+      "options": ["Love Story", "Washing powder Nirma", "My name is Ranveer Ching!", "Iktara"],
       "correctAnswer": 2,
+      "correctFeedback": [
+        "Yes — that silly song had our hearts! 💃🕺",
+        "Correct! You remembered our first dance tune. 🎶"
+      ],
       "wrongFeedback": [
         "Beautiful song, but NOPE! 🎵 Our song is even better!",
         "Close! But you're mixing up our memories again! 🤔",
@@ -41,46 +85,15 @@
       ]
     },
     {
-      "id": 4,
-      "question": "How long have we been together?",
-      "options": ["8 years", "9 years", "10 years", "11 years"],
-      "correctAnswer": 2,
-      "wrongFeedback": [
-        "Off by a year! Were you sleeping that whole time? 😴",
-        "Close, but math is hard! Math is REALLY hard right now! 🤦",
-        "That's not how many years we've been together! Did you forget? 😅"
-      ]
-    },
-    {
-      "id": 5,
-      "question": "When is this photo from?",
-      "imageUrl": "https://via.placeholder.com/400x300?text=Photo+1",
-      "options": ["2016", "2017", "2018", "2019"],
-      "correctAnswer": 1,
-      "wrongFeedback": [
-        "Nope! That was a different era in our lives! 📸",
-        "Wrong year! You're bad at this! 🖼️ Just kidding... kinda",
-        "Wrong! I was looking MUCH younger then! 😅📷"
-      ]
-    },
-    {
       "id": 6,
       "question": "Where is this photo from?",
-      "imageUrl": "https://via.placeholder.com/400x300?text=Photo+1",
-      "options": ["Goa", "Jaipur", "Mumbai", "Bangalore"],
-      "correctAnswer": 0,
-      "wrongFeedback": [
-        "WRONG LOCATION! I thought you were there with me! 😢🗺️",
-        "Nope! You're confusing our memories again! 🧭",
-        "Not that place! Were you even paying attention? 😅✈️"
-      ]
-    },
-    {
-      "id": 7,
-      "question": "When is this photo from?",
-      "imageUrl": "https://via.placeholder.com/400x300?text=Photo+2",
-      "options": ["2020", "2021", "2022", "2023"],
-      "correctAnswer": 2,
+      "imageUrl": "src/data/images/questions/where-from.jpg",
+      "options": ["Starbucks", "Cocoa", "Peters Pan", "Love Sugar Dough"],
+      "correctAnswer": 3,
+      "correctFeedback": [
+        "Right — Love Sugar Dough! 🍩💖",
+        "Yes! Our sweet spot memories. 😋"
+      ],
       "wrongFeedback": [
         "Wrong year! My memory is better than yours apparently! 📸",
         "Not even close! Should I be worried? 🖼️",
@@ -88,15 +101,34 @@
       ]
     },
     {
-      "id": 8,
-      "question": "Where is this photo from?",
-      "imageUrl": "https://via.placeholder.com/400x300?text=Photo+2",
-      "options": ["Manali", "Shimla", "Nainital", "Mussoorie"],
-      "correctAnswer": 1,
+      "id": 7,
+      "question": "How long have we been together?",
+      "options": ["8 years", "9 years", "10 years", "11 years"],
+      "correctAnswer": 2,
+      "correctFeedback": [
+        "Yes — ten years and counting! 🥂",
+        "Correct! Time flies with you. ⏳❤️"
+      ],
       "wrongFeedback": [
-        "Wrong! That place will always be special in my heart! 🗺️",
-        "Nope! Looks like you need a refresher trip there! 🧭",
-        "Not that place! Were you even there with me? 😅✈️"
+        "Off by a year! Were you sleeping that whole time? 😴",
+        "Close, but math is hard! Math is REALLY hard right now! 🤦",
+        "That's not how many years we've been together! Did you forget? 😅"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Whose birthday was it in this photo?",
+      "imageUrl": "src/data/images/questions/whose-birthday.JPG",
+      "options": ["Sourabh's", "Aditi's", "No one's", "Someone else's"],
+      "correctAnswer": 3,
+      "correctFeedback": [
+        "Right — Komal's birthday! 🎂🎉",
+        "Yes! That was Komal's special day. 🥳"
+      ],
+      "wrongFeedback": [
+        "Wrong! It was Komal's Birthday!",
+        "Nope! It was Komal's Birthday!",
+        "Nein, it was Komal's Birthday! 😅"
       ]
     }
   ],

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Confetti from './Confetti';
-import quizData from '../data/quizData.json';
 import './QuestionCard.css';
 
 const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) => {
@@ -28,10 +27,14 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
     }
   };
 
-  const feedbackMessage = showFeedback && selectedAnswer !== null 
-    ? isCorrect 
-      ? "✨ That's right! You know us so well! 💕"
-      : question.wrongFeedback[Math.floor(Math.random() * question.wrongFeedback.length)]
+  const feedbackMessage = showFeedback && selectedAnswer !== null
+    ? isCorrect
+      ? (question.correctFeedback && question.correctFeedback.length
+          ? question.correctFeedback[Math.floor(Math.random() * question.correctFeedback.length)]
+          : "✨ That's right! You know us so well! 💕")
+      : (question.wrongFeedback && question.wrongFeedback.length
+          ? question.wrongFeedback[Math.floor(Math.random() * question.wrongFeedback.length)]
+          : '')
     : '';
 
   const setFeedback = (value) => {
