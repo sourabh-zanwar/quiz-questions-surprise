@@ -48,7 +48,14 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
       
       {question.imageUrl && (
         <div className="question-image">
-          <img src={question.imageUrl} alt="Quiz question" />
+          <img
+            src={
+              // Prepend Vite base URL so assets from `public` or built assets
+              // resolve correctly when deployed to GitHub Pages with a subpath
+              `${import.meta.env.BASE_URL}${String(question.imageUrl).replace(/^\/+/, '')}`
+            }
+            alt="Quiz question"
+          />
         </div>
       )}
       
